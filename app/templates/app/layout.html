@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - Пулевая стрельба</title>
+    <title>{{ title }} - Игрушки</title>
     <!--Блок для загрузки статичных файлов (из папки static) с помощью директивы load:-->
     {% load staticfiles %}
     <!-- тег link используется для подключения таблицы стилей, шрифтов -->
@@ -28,7 +28,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!--Клик по логотипу приводит к переходу на главную страницу сайта-->
-                <a href="/" class="navbar-brand"> <img src="{% static 'app/content/logo.png' %}" alt="Пулевая стрельба" height="55"/> </a>
+                <a href="/" class="navbar-brand"> <img src="{% static 'app/content/logo.png' %}" alt="Панда" height="100" width="100"/> </a>
             </div>
             <div class="navbar-collapse collapse">
                 <!--Класс nav используется для создания меню навигации по сайту-->
@@ -61,7 +61,7 @@
 {% block content %}{% endblock %}
         <hr/>
         <footer>
-            <p>&copy; {{ year }} - Лощенков&nbsp;А.&nbsp;А.</p>
+            <p>&copy; {{ year }} - Макаревич&nbsp;О.&nbsp;П.</p>
         </footer>
     </div>
 

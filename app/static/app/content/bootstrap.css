@@ -59,6 +59,7 @@ html {
 
 body {
   margin: 0;
+  margin-top:50px;
 }
 
 a:focus {
@@ -770,6 +771,7 @@ pre code {
 }
 
 .container {
+  margin-top:10px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -4547,15 +4549,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #ef9f13;
-  background: linear-gradient(to top, #f09e14, #fada31);
+  background-color: #000;
+  background: linear-gradient(to top, #000, #000);
   /*border-color: orange;*/
 }
 
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-greeting
 {
-  color: #a76f0d;
+  color: white;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -4572,13 +4574,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: black;
+  color: white;
+  font-weight:600;
+  font-size:17px;
   border: none;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: black;
+  color: green;
   text-decoration: underline;
   background-color: transparent;
 }
